@@ -1,0 +1,27 @@
+version: '2'
+services:
+  web:
+    build: ./node_env
+    ports: 
+      - 80:3000
+    volumns: 
+      - ./:/home/src
+    command: sh /home/src/www/enterpoint.sh
+    links:
+      - redis
+      - mongoDB
+
+  redis:
+    image: redis:3.2.0
+    ports: 
+      - 6379:6379 
+  
+  mongoDB:
+    image: tutum/mongodb:3.2
+    ports:
+      - 27017:27017
+      - 28017:28017
+    environment:
+      AUTH: 'no'
+    
+    
