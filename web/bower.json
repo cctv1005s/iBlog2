@@ -40,7 +40,8 @@
     "js-md5": "^2.1.0",
     "codemirror": "^5.11.0",
     "switchery": "^0.8.1",
-    "supersized": "*"
+    "supersized": "*",
+    "ueditor":"*"
   },
   "resolutions": {
     "jquery": "2.2.1"
