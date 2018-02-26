@@ -4,7 +4,7 @@ services:
     build: ./node_env
     ports: 
       - 80:3000
-    volumns: 
+    volumes: 
       - ./:/home/src
     command: sh /home/src/www/enterpoint.sh
     links:
