@@ -21,7 +21,7 @@ services:
     ports:
       - 27017:27017
       - 28017:28017
-    environment:···
+    environment:
       AUTH: 'no'
     
     
