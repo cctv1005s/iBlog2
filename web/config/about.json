@@ -1,10 +1,10 @@
 {
-  "FirstLine": "第一行文本",
-  "SecondLine": "第二行文本",
-  "PhotoPath": "/images/zhr.jpg",
-  "ThirdLine": "第三行文本",
-  "Profile": "个人简介",
-  "Wechat": "微信号",
-  "QrcodePath": "",
-  "Email": "Email地址"
+  "FirstLine": "Gorgear",
+  "SecondLine": "阿里云前端工程师",
+  "PhotoPath": "/images/QQ截图20180227130947 (1).png",
+  "ThirdLine": "null",
+  "Profile": "没什么好介绍的",
+  "Wechat": "GorgearYang",
+  "QrcodePath": "/images/QQ截图20180227130947 (2).png",
+  "Email": "cctv1005@gmail.com"
 }
