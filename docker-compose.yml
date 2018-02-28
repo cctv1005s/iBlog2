@@ -6,7 +6,7 @@ services:
       - 80:3000
     volumes: 
       - ./:/home/src
-    command: sh /home/src/www/enterpoint.sh
+    command: sh /home/src/bin/enterpoint.sh
     links:
       - redis
       - mongoDB
@@ -21,7 +21,7 @@ services:
     ports:
       - 27017:27017
       - 28017:28017
-    environment:···
+    environment:
       AUTH: 'no'
     
     

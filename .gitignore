@@ -1,5 +1,8 @@
 node_modules/
 *.log
 public/libs
+public/images
 .idea/
 .gitignore
+package-lock.json
+config/
