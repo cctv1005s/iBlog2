@@ -2,6 +2,7 @@ node_modules/
 *.log
 public/libs
 public/images
+public/uploads
 .idea/
 .gitignore
 package-lock.json

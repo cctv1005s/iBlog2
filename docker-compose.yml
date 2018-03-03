@@ -13,15 +13,14 @@ services:
 
   redis:
     image: redis:3.2.0
-    ports: 
-      - 6379:6379 
+  
   
   mongoDB:
     image: tutum/mongodb:3.2
-    ports:
-      - 27017:27017
-      - 28017:28017
+    volumes:
+      - db_volume:/data/db
     environment:
       AUTH: 'no'
     
-    
+volumes:
+  db_volume:     
