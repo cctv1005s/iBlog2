@@ -1,6 +1,6 @@
 cd /home/src
-echo "begin to install npm"
+echo "begin to npm install"
 npm install
-echo "begin to install bower"
+echo "begin to bower install"
 bower install --allow-root
 node /home/src/bin/www
